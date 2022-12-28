@@ -13,7 +13,8 @@ cual es el cambio** para asi mantener un orden de las cosas e ir viendo que se a
 Enlace de la carpeta en la cual se subira todas las tareas enviadas **[CarpetaPI](https://drive.google.com/drive/folders/1gqN59Qty1iLOyayAun2JL0r_c-yWfyZf?usp=share_link)**
  
 ~~~
-Cualquier duda pueden decirlo por el grupo de wasap o por el grupo de discord siempre mencionando a quien le vayas hacer la pregunta
+Cualquier duda pueden decirlo por el grupo de wasap o por el grupo de 
+discord siempre mencionando a quien le vayas hacer la pregunta
 ~~~
 
 ![imgAtom](img/FooterAtom.png)
