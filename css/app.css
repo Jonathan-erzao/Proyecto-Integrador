@@ -1,58 +1,95 @@
-@font-face{
+@font-face {
     font-family: "FIFA Welcome";
     src: url("img/fonts/fifawelcome.ttf");
 }
 
-body{
-    background: radial-gradient(at top, #000000 ,#2E4053 );
+body {
+    background: radial-gradient(at top, #000000, #2E4053);
+    
 }
-.logo{
+
+.logo {
     z-index: 0;
 }
-.navbar{ z-index: 1;    position: static; font-family: "FIFA Welcome"; font-size: 18px}
-.btn{
-    font-family: "FIFA Welcome"; font-size: 20px; 
+
+.navbar {
+    z-index: 1;
+    position: static;
+    font-family: "FIFA Welcome";
+    font-size: 18px
 }
-.bg-light{
-    background: linear-gradient(#0d0f13 ,#2E4053 );
+
+.btn {
+    font-family: "FIFA Welcome";
+    font-size: 20px;
+}
+
+.bg-light {
+    background: linear-gradient(#0d0f13, #2E4053);
     border-radius: 25px;
 }
-.nav-item{
+
+.nav-item {
     padding: 0px 20px;
 }
-.nav-item:first-child{
+
+.nav-item:first-child {
     border-right: #2E4053 solid 1px;
 }
-.pc{
+
+.pc {
     animation: pc_animacion ease-in-out infinite 4s;
 }
-@keyframes pc_animacion{
-    0%{ transform: translateY(-10%);}
-    50%{ transform: translateY(0%);}
-    100%{ transform: translateY(-10%);}
+
+@keyframes pc_animacion {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
 }
-.d-block{
+
+.d-block {
     animation: imagenes_animacion ease-in-out infinite 4s;
 }
-@keyframes imagenes_animacion{
-    0%{ transform: translateY(-10%);}
-    50%{ transform: translateY(0%);}
-    100%{ transform: translateY(-10%);}
+
+@keyframes imagenes_animacion {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
 }
-.container1{
+
+.container1 {
     padding-top: 130px;
 }
-.container2{
+
+.container2 {
     font-family: "FIFA Welcome";
     padding-top: 150px;
 }
-footer{
+
+footer {
     background: whitesmoke;
     font-family: "FIFA Welcome";
     font-size: 20px;
     color: black;
 }
-.pie{
+
+.pie {
     background-color: black;
     margin-left: 600px;
     margin-right: 600px;
