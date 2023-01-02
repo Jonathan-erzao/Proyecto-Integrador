@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "FIFA Welcome";
+    src: url("img/fonts/fifawelcome.ttf");
+
+}
+/*PAGINA DE COMPONENTES*/
+/*-Titulos*/
+.titulos{
+    font-family: "FIFA Welcome";
+    color: #868d9b;
+    font-size: 60px;
+    font-weight: 400;
+    
+
+}
+/* -Productos (graficas,cpu,ram)*/
+.lineareal{
+    display: flex;
+    
+}
+.linea{
+    margin: 20px;
+    display: flex;
+    padding: 80px;
+   
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 299px;
+    
+}
+ .card div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    backface-visibility: hidden;
+    transition: 0s;
+    
+ }
+
+ .card .front {
+    
+    background: #000000;
+    transform: perspective(100px) rotateY(0deg);
+
+ }
+ .card .back {
+    background: radial-gradient(at right, #0c1431ea ,#050e27ea,#020429ea);
+    transform: perspective(100px) rotateY(180deg); 
+  
+    
+ }
+ .card:hover .front {
+    transform: perspective(100px) rotateY(180deg);
+
+ }
+
+ .card:hover .back {
+    transform: perspective(100px) rotateY(360deg);
+
+ }
+
+
+/* BOTON DE COMPRA*/
+.nombre-boton{
+    position: relative;
+    border-radius:  50px;
+    color: #4f5662;
+    background-color: #2E4053;
+    font-weight: 500;
+    padding: 0;
+    right: 22px;
+   
+    
+    
+}
+.boton_compra {
+    position: relative;
+    left: 0px;
+    top: 125px;
+    
+}
+.boton_compra .boton{
+height: 30px;
+width: 30px;
+margin: 0 5px;
+overflow: hidden;
+background: radial-gradient(at top, #000000, #2E4053);
+border-radius: 50px;
+cursor: pointer;
+box-shadow: 0 10px 10px rgba(21, 20, 61, 0.443);
+transition: all .3s ease-out;
+
+}
+.boton_compra .boton:hover{
+    width:250px
+}
+.boton_compra .boton .icono{
+    display:  inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all .3s ease-out;
+   
+}
+.boton_compra .boton_ :nth-child(1):hover .icono{
+    background: #8393b4;
+    color: rgb(31, 54, 54);
+}
+.boton_compra .boton i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.boton_compra .boton span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 5px;
+    margin-left:10px;
+    color: #8393b4;
+}
+.icono {
+ left: 100px;
+  
+}
+
+/*-letras*/
+.letras_caracteristicas{
+    position: relative;
+    font-family: "FIFA Welcome";
+    color: #ffffff;
+    font-size: 15.5px;
+    font-weight: 40;
+    right: 80px;
+    
+}
+.titulo_caracteristicas{
+    position: relative;
+    font-family: "FIFA Welcome";
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 40;
+    left: 100px;
+    top: -120px;
+    display: flex;
+}
+.letras_pcArmadas{
+    position: relative;
+    font-family: "FIFA Welcome";
+    color: #ffffff;
+    font-size: 15.5px;
+    font-weight: 40;
+    right: -10px;
+}

@@ -1,15 +1,10 @@
-@font-face{
-    font-family: "FIFA Welcome";
-    src: url("img/fonts/fifawelcome.ttf");
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=sawp');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "FIFA Welcome";
-    font-size: 18px;
+    font-family: 'FIFA Welcome', sans-serif;
 }
 body
 {
@@ -24,7 +19,7 @@ body
 {
     position: relative;
     width: 380px;
-    height: 420px;
+    height: 650px;
     background: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
