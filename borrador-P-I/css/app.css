@@ -1,0 +1,122 @@
+@font-face{
+    font-family: "FIFA Welcome";
+    src: url("img/fonts/fifawelcome.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: radial-gradient(at top, #000000 ,#2E4053 );
+    width: 100%;
+    max-width: 100%;
+}
+.logo{
+    z-index: 0;
+}
+.navbar{ z-index: 1;    position: static; font-family: "FIFA Welcome"; font-size: 18px}
+.btn{
+    font-family: "FIFA Welcome"; font-size: 20px; 
+}
+.bg-light{
+    background: linear-gradient(#0d0f13 ,#2E4053 );
+    border-radius: 25px;
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-item:first-child{
+    border-right: #2E4053 solid 1px;
+}
+.pc{
+    animation: pc_animacion ease-in-out infinite 4s;
+}
+@keyframes pc_animacion{
+    0%{ transform: translateY(-10%);}
+    50%{ transform: translateY(0%);}
+    100%{ transform: translateY(-10%);}
+}
+.img{
+    animation: imagenes_animacion ease-in-out infinite 4s;
+}
+@keyframes imagenes_animacion{
+    0%{ transform: translateY(-5%);}
+    50%{ transform: translateY(0%);}
+    100%{ transform: translateY(-5%);}
+}
+.container1{
+    margin: auto;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 900px;
+}
+.container2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "FIFA Welcome";
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+}
+.Help{
+    text-align: center;
+}
+.Informacion{
+    display: flex;
+}
+.image-1{
+    filter: hue-rotate(1500deg) brightness(60%);
+}
+.izquierda{
+    text-align: left;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+.lead{
+    text-align: center;
+    padding: 10px;
+}
+.derecha{
+    text-align: right;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+.container3{
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1500px;
+
+}
+
+.infocontacto{
+    margin-top: 50px;
+    background-color: aliceblue;
+    font-family: "FIFA Welcome";
+}
+
+.media{
+    padding: 15px;
+}
+
+
+
+footer{
+    margin: auto;
+    width: 100%;
+    max-width: 1600px;
+    background: rgb(255, 255, 255);
+    font-family: "FIFA Welcome";
+    font-size: 20px;
+    color: black;
+    
+}
+
+.pie{
+    margin: auto;
+    background-color: black;
+    width: 30%;
+    max-width: 300px;
+}
